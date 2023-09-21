@@ -1,6 +1,8 @@
 {
   "name": "@wumvi/wm.ts.react-app-tpl",
   "version": "0.0.1",
+  "i18tsName": "wm-ts-react-app-tpl",
+  "i18tsVer": "1",
   "description": "",
   "author": "Kozlenko Vitaliy",
   "license": "proprietary",
@@ -12,10 +14,9 @@
     "tsconfig-package-autogen-build": "node ./tsconfig-autogen-build-v3.js",
     "show-ts-config": "./node_modules/.bin/tsc --showConfig",
     "prepare": "npm run tsconfig-package-autogen-build",
-    "new-version": "npm version patch && git push -u origin master && npm publish"
+    "new-version": "npm version patch && git push -u origin master && npm publish",
+    "tpl-init": "node tpl-init.mjs"
   },
-  "i18tsName": "wm-ts-video-player",
-  "i18tsVer": "1",
   "keywords": [],
   "devDependencies": {
     "@babel/cli": "^7.20.7",
