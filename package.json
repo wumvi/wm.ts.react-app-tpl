@@ -14,8 +14,7 @@
     "tsconfig-package-autogen-build": "node ./tsconfig-autogen-build-v3.js",
     "show-ts-config": "./node_modules/.bin/tsc --showConfig",
     "prepare": "npm run tsconfig-package-autogen-build",
-    "new-version": "npm version patch && git push -u origin master && npm publish",
-    "tpl-init": "node tpl-init.mjs"
+    "new-version": "npm version patch && git push -u origin master && npm publish"
   },
   "keywords": [],
   "devDependencies": {

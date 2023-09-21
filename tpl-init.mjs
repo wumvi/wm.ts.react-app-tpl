@@ -17,8 +17,7 @@ fs.writeFile(PACKAGE_FILE, content, err => {
 const GIT_IGNORE_FILE = '.gitignore';
 const gitIgnore = fs.readFileSync(GIT_IGNORE_FILE);
 content = gitIgnore.toString().replace('package-lock.json', '');
-
-fs.writeFile(PACKAGE_FILE, content, err => {
+fs.writeFile(GIT_IGNORE_FILE, content, err => {
     if (err) {
         console.error(err);
     }
