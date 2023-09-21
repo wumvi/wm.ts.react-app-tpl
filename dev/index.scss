@@ -1,0 +1,26 @@
+@use "reset";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+canvas {
+  box-sizing: content-box;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+#app-root {
+  width: 600px;
+  color: #fff;
+}
